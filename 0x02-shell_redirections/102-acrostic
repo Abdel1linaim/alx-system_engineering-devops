@@ -1,4 +1,2 @@
 #!/bin/bash
-find . -type f -name \*.gif -printf "%f\n" | LC_ALL=C sort -f | re
-v | cut -b 5- | rev
-
+cur -c 1 | paste -s -d ''
